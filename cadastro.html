@@ -24,38 +24,44 @@
             <h1>Cadastre-se na SAPIENS</h1>
             <P>O  catálogo da sua bibliotecaestá disponível em qualquer lugar, a qualquer hora.</P>
         </section>
-        <section>
+    </main>
+    <div class="center">
+        <div class="fim">
             <div class="cast-input">
-                <h2>Informações da conta:</h2>
                 <div class="input">
-                        <div class="input-box">
-                            <label for="firstname">Primeiro nome</label>
-                            <input id="firstname" type="text" name="firstname" placeholder="Primeiro nome" required>
+                    <h2>Informações da conta:</h2>
+                        <div class="estrutura">
+                            <div class="input-box">
+                                <label for="firstname">Primeiro nome</label>
+                                <input id="firstname" type="text" name="firstname" placeholder="Primeiro nome" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="lastname">Último nome</label>
+                                <input id="lastname" type="text" name="lastname" placeholder="Último nome" required>
+                            </div>
                         </div>
-                        <div class="input-box">
-                            <label for="lastname">Último nome</label>
-                            <input id="lastname" type="text" name="lastname" placeholder="Último nome" required>
+                        <div class="estrutura">
+                            <div class="input-box">
+                            <label for="email">E-mail</label>
+                               <input id="email" type="email" name="email" placeholder="E-mail" required>
+                            </div>
+                            <div class="input-box">
+                              <label for="passwourd">Senha</label>
+                              <input id="passwourd" type="password" name="password" placeholder="Senha" required>
+                            </div>
                         </div>
+                        <label for="pais">País</label>
                         <div class="input-box">
-                        <label for="email">E-mail</label>
-                           <input id="email" type="email" name="email" placeholder="E-mail" required>
-                        </div>
-                        <div class="input-box">
-                          <label for="passwourd">Senha</label>
-                          <input id="passwourd" type="password" name="password" placeholder="Senha" required>
-                    </div>
-                    <label for="pais">País</label>
-                     <div class="input-box">
-                         <select id="pais" name="pais">
-                            <option value="brasil">Brasil</option>
+                            <select id="pais" name="pais">
+                            <option value="brasil">Brasil(Padrão)</option>
                             <option value="portugal">Portugal</option>
                             <option value="angola">Angola</option>
                           </select>
-                     </div>
+                        </div>
                 </div>
-                <p><a href="#">Iniciar minha Biblioteca</a></p>
             </div>
-        </section>
-    </main>
+            <p><a href="#">Iniciar minha Biblioteca</a></p>
+        </div>
+    </div>
 </body>
 </html>
