@@ -46,8 +46,15 @@ img{
     width: 55px;
     height: 21px;
 }
-.inicio{
+.inicio {
     display: flex;
+}
+.inicio .img-texto img{
+    margin: 25px 7px 0px  0px;
+    padding-left:47px ;
+} 
+.img-texto{
+    margin: 0px 0px 0px 3px;
 }
 .butt input{
     width: 362px;
@@ -59,4 +66,17 @@ img{
     font-family: 'Roboto',Times, serif;
     font-size: 16px;
     color: #5E8396;
+}
+.contene{
+    background-color: brown;
+    width: 376px;
+    height: 267px;
+}
+.botao-texto{
+    display: flex;
+}
+.contene p a{
+    color: #0096B5;
+    font-family: 'Roboto', Times, serif;
+    margin: 0px 0px 0px 0px;
 }
